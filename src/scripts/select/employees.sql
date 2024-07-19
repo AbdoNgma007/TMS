@@ -1,0 +1,1 @@
+SELECT "fname" || " " ||  "lname"    FROM employee;

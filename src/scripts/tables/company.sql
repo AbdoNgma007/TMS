@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS company (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(50) NOT NULL,
+    type_company VARCHAR(50) NOT NULL,
+    country VARCHAR(50) NOT NULL,
+    address VARCHAR(100) NOT NULL,
+    fix_number INT NOT NULL,
+    email VARCHAR(100) NOT NULL
+);
